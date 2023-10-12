@@ -1,0 +1,36 @@
+.main_container{
+    width: 80%;
+    top:2%;
+    left:2%;
+}
+.content_text{
+    margin-left: 2%;
+    margin-top: 5%;
+}
+.content_text p{
+    color: grey;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    
+}
+.image{
+    float: right;
+}
+.image img{
+    height:300px;
+    margin-top: -100%;
+    margin-left: 36%;
+}
+/* media query */
+@media screen and (max-width: 833px) {
+.content_text {
+    margin-left: 0%;
+}
+}
+@media screen and (max-width:634px) {
+    .image img {
+        height: 300px;
+        margin-top: -10%;
+        margin-left: 8%;
+    }
+}

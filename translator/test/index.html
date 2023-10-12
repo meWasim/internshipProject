@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Image to Text Conversion</title>
+  <style>
+    #image-preview {
+      max-width: 500px;
+      max-height: 500px;
+    }
+    #image-input{
+
+    }
+  </style>
+</head>
+<body>
+  <input type="file" id="image-input" accept="image/*,.pdf">
+  <br>
+  <img id="image-preview" src="#" alt="Image Preview">
+  <br>
+  <button id="convert-btn">Convert to Text</button>
+  <br>
+  <textarea id="text-output" cols="50" rows="10" readonly></textarea>
+
+  <script>
+    const imageInput = document.getElementById('image-input');
+    const imagePreview = document.getElementById('image-preview');
+    const convertBtn = document.getElementById('convert-btn');
+    const textOutput = document.getElementById('text-output');
+
+    imageInput.addEventListener('change', function(e) {
+      const file = e.target.files[0];
+      const reader = new FileReader();
+
+      reader.onload = function(event) {
+        imagePreview.src = event.target.result;
+      };
+
+      reader.readAsDataURL(file);
+    });
+
+    convertBtn.addEventListener('click', function() {
+      const file = imageInput.files[0];
+      const formData = new FormData();
+      formData.append('file', file);
+
+      fetch('https://api.ocr.space/parse/image', {
+        method: 'POST',
+        headers: {
+          'apikey': 'K87950776588957' // Replace with your API key
+        },
+        body: formData
+      })
+      .then(response => response.json())
+      .then(data => {
+        if (data && data.ParsedResults && data.ParsedResults.length > 0) {
+          textOutput.value = data.ParsedResults[0].ParsedText;
+        }
+      })
+      .catch(error => console.error('Error:', error));
+    });
+  </script>
+</body>
+</html>

@@ -1,0 +1,42 @@
+.container{
+    width: 100%;
+    padding: 10%;
+    display: flex;
+    flex-wrap: wrap;
+
+
+}
+.text p{
+color: rgb(120, 113, 113);
+}
+.text h1{
+    font-size: 38px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+}
+.text{
+    margin-left: -2%;
+    margin-top: -1%;
+   padding: 2px;
+}
+.image{
+  margin-left: 0%;
+}
+
+.image img{
+    height:350px;
+}
+/* media query */
+@media screen and (max-width:588px ){
+    .text {
+        margin-left: -8%;
+    }
+    .image{
+        margin-left: -10%;
+      }
+}
+@media screen and (max-width:588px ){
+    .image{
+        margin-left: -15%;
+      }
+}

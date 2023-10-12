@@ -1,0 +1,143 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background: #757F9A;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #D7DDE8, #757F9A);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #D7DDE8, #757F9A); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+
+}
+.container{
+    min-width:60%;
+    background:#fff;
+    border-radius: 7px;
+    padding: 30px;
+    background: #f1f0f0;  /* fallback for old browsers */
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+
+}
+.wrapper{
+    border: 1px solid #bbb;
+
+    border-radius: 5px;
+
+}
+.text-input textarea{
+    height: 250px;
+    width: 100%;
+    border: none;
+    outline: none;
+    background: none;
+    font-size: 18px;
+    border-radius: 5px;
+    padding: 10px 15px;
+    resize: none;
+
+}
+.wrapper .text-input{
+    display: flex;
+border-bottom: 1px solid #bbb;
+
+}
+.text-input .to-text{
+    border-left: 1px solid #bbb;
+
+    border-radius: 0px;
+
+}
+.controls, li, .icons, .icons i{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.controls{
+    list-style: none;
+    padding: 12px 15px;
+
+}
+.controls .icons i{
+    color: #9f9f9f;
+
+    font-size: 14px;
+    cursor: pointer;
+    width: 50px;
+    justify-content: center;
+     
+}
+.controls .row select{
+    border: none;
+    outline: none;
+    background: none;
+    font-size: 18px;
+
+}
+.controls .exchange{
+    color: #9f9f9f;
+    font-size: 16px;
+    cursor: pointer;
+}
+.controls .icons{
+    width: 38%;
+
+
+}
+.controls .row.form .icons{
+    border-right: 1px solid #bbb;
+    padding-right: 15px;
+
+}
+.controls .row.to .icons{
+    border-right: 1px solid #bbb;
+    padding-right: 15px;
+
+}
+.mic{
+    width:100%;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    font-size:1.5rem;
+    color: #bbb;
+}
+.mic i{
+    padding: 15px;
+    background-color: #5372F7;
+    cursor: pointer;
+    border-radius: 50%;
+    color: white;
+}
+.container .trans{
+    width: 100%;
+    padding: 14px;
+    margin-top: 20px;
+    border: none;
+    outline: none;
+    background: #5372F7;
+    cursor: pointer;
+    border-radius: 5px;
+
+    color: #fff;
+    font-size: 17px;
+    outline: none;
+}
+#convert-btn{
+    border:none;
+}
+#convert-btn i{
+    color: white;
+    background-color: #5372F7;
+    font-size: larger;
+    padding: 10px;
+    outline: none;
+    border: none;
+    border-radius: 10px;
+
+}

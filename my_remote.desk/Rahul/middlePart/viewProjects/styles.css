@@ -1,0 +1,50 @@
+.center_div{
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.text{
+    align-self: center;
+}
+.images{
+  
+    align-self: center;
+}
+.images img{
+    height:300px;
+}
+.bottom_div{
+    display: flex;
+   
+    justify-content: space-around;
+   
+}
+.left_div{
+    width:40%;
+    height:170px;
+    border: 1px solid black;
+    border-radius: 10px;
+ 
+
+}
+.left_div h3 {
+    text-align: center;
+}
+.right_div{
+    width:40%;
+    height:170px;
+    border: 1px solid black;
+    border-radius: 10px;
+ 
+}
+.right_div h3 {
+    text-align: center;
+}
+.left_div, .right_div {
+    text-align: center;
+}
+
+.left_div button, .right_div button {
+    display: inline-block;
+}

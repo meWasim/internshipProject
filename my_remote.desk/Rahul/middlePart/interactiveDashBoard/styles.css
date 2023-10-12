@@ -1,0 +1,78 @@
+.content h1{
+    font-size: 34px;
+  
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    /* margin-top: 2%;
+    margin-left: 2%; */
+}
+.content p{
+  color: rgb(138, 131, 131);
+  /* margin-top: 2%;
+  margin-left: 2%; */
+
+}
+.content{
+    margin-left: 60%;
+    margin-top: 2%;
+}
+.container{
+    width:100%;
+    margin-top: 6%;
+
+}
+.image{
+margin-top: 0%;
+margin-left: 0%;
+}
+.image img{
+    height: 400px;
+    margin-left: 1%;
+    margin-top: -32%;
+     
+    float: left;
+}
+/* media query selection */
+@media screen and (max-width:1056px) {
+    .content{
+        margin-left: 59%;
+    }
+    .image img{
+        height:322px;
+    }
+    
+}
+@media screen and (max-width:1014px){
+    .content{
+        margin-left: 53%;
+    }
+}
+@media screen and (max-width:874px){
+    .content h1{
+        font-size: 30px;
+    }
+    .image img{
+        margin-top: -41%;
+    }
+}
+@media screen and (max-width:623px){
+   .image{
+    margin-top: -16%;
+    margin-left: -6%;
+   }
+   .image img{
+    height:300px;
+   }
+}
+@media screen and (max-width:500px){
+    .content{
+        margin-left: 6%;
+    }
+    .image{
+        margin-top: 32%;
+        margin-left: -2%;
+    }
+    .container {
+        width: 100%;
+          margin-top: 5%;
+}
+}

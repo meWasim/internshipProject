@@ -1,0 +1,57 @@
+.con ul li{
+    display: inline-block;
+    flex-direction: row;
+    padding: 5px;
+    margin: 0px;
+    
+}
+.tab{
+    margin-left: 5rem;
+}
+.btn ul li{
+    text-align: center;
+    display: inline-block;
+    margin-top: 5rem;
+    font-size: 15px;
+    background-color: gainsboro;
+    width: 10%;
+    padding: 5px;
+    color: black;
+}
+.con{
+    background-color: rgb(227, 217, 217);
+    font-size: 20px;
+    margin: 0px;
+}
+
+.header button{
+    text-align: center;
+    display: inline-block;
+    margin-top: .5rem;
+    font-size: 20px;
+    background-color: rgb(38, 38, 254);
+    width: 10%;
+    border-radius: 9px;
+    padding: 5px;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+.mid img{
+    display: block;
+    border: .5px solid rgb(242, 235, 235);
+    border-radius: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: auto;
+    width: 50%;
+
+}
+.frm{
+    display: inline-block;
+    /* text-align: center; */
+    font-size: 25px;
+    width: 100%;
+    margin-left: 2rem;
+}

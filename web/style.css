@@ -1,0 +1,153 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+        display:flex ;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        height: 150px;
+        line-height: 2;
+        background: rgb(2,0,36);
+        color: white;
+        background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(121,9,97,1) 0%, rgba(0,212,255,1) 100%);
+      }
+.option-btn{
+    width: 10%;
+    
+}
+.option-btn i{
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+.head-content{
+    text-align: center;
+    width: 90%;
+}
+
+
+/*                              first Section             */
+
+.first{
+    background-image: url("assets/nasa-Q1p7bh3SHj8-unsplash.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.9;
+    height: 100vh;
+    width: 100%;
+}
+.first-heading{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    margin: 0 auto;
+    padding-top: 30px;
+}
+.left{
+    width: 70%;
+}
+
+.left h1{
+    color: white;
+    font-size: 2.5rem;
+}
+.left h3{
+    color: white;
+    margin-top: 20px;
+}
+.under-line{
+    width: 100%;
+    height: 2px;
+    background-color: red;
+    margin-top: 40px;
+}
+img{
+    background-color: white;
+    border: 4px solid;
+    border-color: ( rgba(2,0,36,1) 0%, rgba(121,9,97,1) 0%, rgba(0,212,255,1) 100%);;
+    border-radius: 50%;
+    
+}
+.second-heading{
+    width: 80%;
+    margin: 0 auto;
+}
+.second-heading h1{
+    color: rgb(31, 214, 214);
+    margin-top: 40px;
+    font-size: 1.7rem;
+}
+.second-heading h4{
+    color: white;
+    margin-top: 40px;
+}
+
+.card{
+    display: flex;
+    gap: 5%;
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+
+.left-card , .right-card{
+    background-color: blue;
+    width:40%;
+    height: 120px;
+    display: flex;
+    border-radius:100px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    color: white;
+    line-height: 2;
+}
+
+.card2{
+    height: 150px;
+    width: 80%;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(4, 4, 4, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+   margin: 0  auto;
+   margin-top: 30px;
+   border-radius: 30px;
+}
+
+
+
+/*            Brands             */
+
+.brands{
+    width:100%;
+    height: 100vh;
+    background-image: url("assets/buildings.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+}
+
+.brand-logo {
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    width: 80%;
+}
+
+
+/*              Media          */
+.media{
+    background-image: url("assets/media.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    padding: 20px 50px 20px 50px;
+    display: flex;
+    float: inline-start;
+}
+
+.box{
+    height: 250px;
+    width: 250px;
+}

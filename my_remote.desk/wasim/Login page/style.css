@@ -1,0 +1,159 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+
+
+.main-content{
+
+    background-color: #fff;
+    min-height: 100vh;
+    transition: all 0.5s ease;
+    padding: 1rem;
+    margin: 0 auto;
+
+}
+nav{
+    display: flex;
+    height: 80px;
+    width: 100%;
+}
+nav img{
+    width:50px;
+    height: 50px;
+}
+.logo{
+    width: 100%;
+    display:flex ;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+    margin-left: 7%;
+}
+
+.main{
+    display: flex;
+    flex-direction: column;
+    width:70%;
+    max-width: 1000px;
+    border: 1px solid rgb(203, 196, 196);
+    margin: 0 auto;
+    margin-top: 70px;
+    border-radius: 12px;
+    height: 100%;
+
+}
+img{
+    width: 70%;
+    height: 30%;
+    margin: 15px auto;
+}
+.heading{
+    width:80%;
+    margin: 15px auto;
+    text-align: center;
+}
+.heading h1{
+    margin-bottom: 10px;
+    
+}
+.form-area{
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    margin: 10px auto;
+}
+form{
+    display: flex;
+    flex-direction: column;
+}
+label{
+    margin-left: 10px;
+}
+form input{
+    padding: 10px;
+    margin-bottom: 15px;
+    border-radius: 15px;
+    font-size: 15px;
+    border: none;
+    outline: none;
+    background-color: #e4dfe8;
+    margin-top: 10px;
+}
+form textarea{
+    padding: 10px;
+    margin-bottom: 15px;
+    border-radius: 15px;
+    font-size: 15px;
+    border: none;
+    outline: none;
+    background-color: #e4dfe8;
+}
+.send{
+    width: 100px;
+    height: 50px;
+    border-radius: 15px;
+    border: none;
+    margin: 15px auto;
+    background-color: #3de63a;
+    font-size: 20px;
+    cursor: pointer;
+   
+}
+.send:hover{
+    background-color: #2e922c;
+}
+.ca{
+    text-align: center;
+}
+
+.btns{
+    width: 70%;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+}
+.btns a{
+    text-decoration: none;
+    
+}
+.prev{
+    padding: 10px 30px;
+    border: none;
+    border-radius: 15px;
+    background-color: #6b9080;
+    color: white;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+
+.next{
+    padding: 10px 30px;
+    border: none;
+    border-radius: 15px;
+    background-color: #90be6d;
+    color: white;
+    font-size: 1rem;
+    cursor: pointer;
+}
+@media (max-width:800px) {
+    .main{
+        flex-direction: column;
+        height: 100%;
+    }
+    p{
+        margin-bottom: 20px;
+    }
+    
+   
+
+}
